@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #faf7f2;
+  --color-sand: #f1ebe2;
+  --color-brand: #a9763f;
+  --color-brand-dark: #8a5d2d;
+  --color-gold: #d4a45d;
+  --color-cocoa: #1b1511;
+  --color-ink: #2b2420;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Jost", system-ui, sans-serif;
+  --font-script: "Pinyon Script", cursive;
+}
+
+@layer base {
+  body { @apply bg-cream font-sans text-ink antialiased; }
+  h1, h2, h3 { @apply font-serif; }
+  :focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }
+}

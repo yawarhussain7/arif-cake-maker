@@ -1,0 +1,4 @@
+◇ injected env (3) from .env
+◇ injected env (0) from .env
+(node:20008) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
